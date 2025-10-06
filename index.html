@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community App MVP - UI Design</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>🏘️ Community App - MVP Design Concept</h1>
+
+        <div class="design-system">
+            <h2>🎨 Design System</h2>
+
+            <div class="color-palette">
+                <div class="color-card" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                    <h3>Primary Gradient</h3>
+                    <p>#667eea → #764ba2</p>
+                </div>
+                <div class="color-card" style="background: #48bb78;">
+                    <h3>Success / Trust</h3>
+                    <p>#48bb78</p>
+                </div>
+                <div class="color-card" style="background: #f56565;">
+                    <h3>Alert / Action</h3>
+                    <p>#f56565</p>
+                </div>
+                <div class="color-card" style="background: #4299e1;">
+                    <h3>Info / Link</h3>
+                    <p>#4299e1</p>
+                </div>
+            </div>
+
+            <div class="typography">
+                <h3 style="color: #2d3748; margin-bottom: 15px;">Typography</h3>
+                <p style="font-size: 1.5em; color: #2d3748; margin-bottom: 8px;"><strong>Heading 1:</strong> SF Pro /
+                    System Font - 24px, Bold</p>
+                <p style="font-size: 1.2em; color: #2d3748; margin-bottom: 8px;"><strong>Heading 2:</strong> SF Pro /
+                    System Font - 18px, Semibold</p>
+                <p style="font-size: 1em; color: #4a5568;"><strong>Body Text:</strong> SF Pro / System Font - 15px,
+                    Regular</p>
+                <p style="font-size: 0.9em; color: #718096; margin-top: 8px;"><strong>Caption:</strong> SF Pro / System
+                    Font - 13px, Regular</p>
+            </div>
+        </div>
+
+        <div class="screens-container">
+            <!-- Splash Screen -->
+            <div class="phone-mockup">
+                <div class="phone-notch"></div>
+                <div class="screen">
+                    <div class="screen-content-full">
+                        <div class="splash-screen">
+                            <div style="font-size: 80px; margin-bottom: 20px;">🏘️</div>
+                            <h2 style="font-size: 2em; margin-bottom: 10px;">CommunityHub</h2>
+                            <p style="opacity: 0.9; text-align: center; margin-bottom: 40px;">Connect. Support. Grow
+                                Together.</p>
+                            <button class="btn" style="max-width: 250px;">Get Started</button>
+                            <button class="btn btn-secondary" style="max-width: 250px; margin-top: 12px;">Sign
+                                In</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Home Dashboard -->
+            <div class="phone-mockup">
+                <div class="phone-notch"></div>
+                <div class="screen">
+                    <div class="screen-header">
+                        <h3>Welcome back, Rajesh! 👋</h3>
+                        <p>Your community at your fingertips</p>
+                    </div>
+                    <div class="screen-content">
+                        <div class="module-card">
+                            <div class="module-icon" style="background: #fef3c7;">💑</div>
+                            <h4>Matrimony</h4>
+                            <p>Find your perfect life partner within the community</p>
+                        </div>
+
+                        <div class="module-card">
+                            <div class="module-icon" style="background: #fed7d7;">📢</div>
+                            <h4>Grievance & Complaints</h4>
+                            <p>Report issues and track resolution status</p>
+                        </div>
+
+                        <div class="module-card">
+                            <div class="module-icon" style="background: #c6f6d5;">💰</div>
+                            <h4>Financial Assistance</h4>
+                            <p>Apply for support programs and emergency aid</p>
+                        </div>
+
+                        <div class="module-card">
+                            <div class="module-icon" style="background: #bee3f8;">🤝</div>
+                            <h4>Business Networking</h4>
+                            <p>Connect with entrepreneurs and professionals</p>
+                        </div>
+                    </div>
+                    <div class="bottom-nav">
+                        <div class="nav-item active">
+                            <div class="nav-icon">🏠</div>
+                            <div>Home</div>
+                        </div>
+                        <div class="nav-item">
+                            <div class="nav-icon">💬</div>
+                            <div>Messages</div>
+                        </div>
+                        <div class="nav-item">
+                            <div class="nav-icon">🔔</div>
+                            <div>Alerts</div>
+                        </div>
+                        <div class="nav-item">
+                            <div class="nav-icon">👤</div>
+                            <div>Profile</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Notifications/Alerts Screen -->
+            <div class="phone-mockup">
+                <div class="phone-notch"></div>
+                <div class="screen">
+                    <div class="screen-header">
+                        <h3>Notifications</h3>
+                        <p>Stay updated with your activity</p>
+                    </div>
+                    <div class="screen-content">
+                        <div style="display: flex; gap: 10px; margin-bottom: 20px;">
+                            <button class="btn" style="flex: 1; padding: 10px; font-size: 0.85em;">All</button>
+                            <button class="btn btn-secondary"
+                                style="flex: 1; padding: 10px; font-size: 0.85em;">Unread</button>
+                        </div>
+
+                        <div class="settings-item" style="border-left: 4px solid #667eea;">
+                            <div style="display: flex; gap: 12px;">
+                                <div style="font-size: 32px;">💚</div>
+                                <div style="flex: 1;">
+                                    <p style="color: #2d3748; font-weight: 600; margin-bottom: 4px;">New Connection
+                                        Request</p>
+                                    <p style="color: #718096; font-size: 0.85em; margin-bottom: 4px;">Priya Sharma wants
+                                        to connect with you</p>
+                                    <p style="color: #a0aec0; font-size: 0.75em;">2 hours ago</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="settings-item" style="border-left: 4px solid #48bb78;">
+                            <div style="display: flex; gap: 12px;">
+                                <div style="font-size: 32px;">✅</div>
+                                <div style="flex: 1;">
+                                    <p style="color: #2d3748; font-weight: 600; margin-bottom: 4px;">Complaint Resolved
+                                    </p>
+                                    <p style="color: #718096; font-size: 0.85em; margin-bottom: 4px;">Your street light
+                                        complaint has been resolved</p>
+                                    <p style="color: #a0aec0; font-size: 0.75em;">5 hours ago</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="settings-item" style="border-left: 4px solid #4299e1;">
+                            <div style="display: flex; gap: 12px;">
+                                <div style="font-size: 32px;">💰</div>
+                                <div style="flex: 1;">
+                                    <p style="color: #2d3748; font-weight: 600; margin-bottom: 4px;">Financial Aid
+                                        Approved</p>
+                                    <p style="color: #718096; font-size: 0.85em; margin-bottom: 4px;">Your medical
+                                        assistance request of ₹25,000 approved</p>
+                                    <p style="color: #a0aec0; font-size: 0.75em;">1 day ago</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="settings-item" style="border-left: 4px solid #f6ad55;">
+                            <div style="display: flex; gap: 12px;">
+                                <div style="font-size: 32px;">🤝</div>
+                                <div style="flex: 1;">
+                                    <p style="color: #2d3748; font-weight: 600; margin-bottom: 4px;">Business Network
+                                        Update</p>
+                                    <p style="color: #718096; font-size: 0.85em; margin-bottom: 4px;">Amit Patel
+                                        accepted your connection request</p>
+                                    <p style="color: #a0aec0; font-size: 0.75em;">2 days ago</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="settings-item" style="opacity: 0.6;">
+                            <div style="display: flex; gap: 12px;">
+                                <div style="font-size: 32px;">📢</div>
+                                <div style="flex: 1;">
+                                    <p style="color: #2d3748; font-weight: 600; margin-bottom: 4px;">Community
+                                        Announcement</p>
+                                    <p style="color: #718096; font-size: 0.85em; margin-bottom: 4px;">Annual community
+                                        meeting scheduled for Jan 25</p>
+                                    <p style="color: #a0aec0; font-size: 0.75em;">3 days ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom-nav">
+                        <div class="nav-item">
+                            <div class="nav-icon">🏠</div>
+                            <div>Home</div>
+                        </div>
+                        <div class="nav-item">
+                            <div class="nav-icon">💬</div>
+                            <div>Messages</div>
+                        </div>
+                        <div class="nav-item active">
+                            <div class="nav-icon">🔔</div>
+                            <div>Alerts</div>
+                        </div>
+                        <div class="nav-item">
+                            <div class="nav-icon">👤</div>
+                            <div>Profile</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Messages Screen -->
+            <div class="phone-mockup">
+                <div class="phone-notch"></div>
+                <div class="screen">
+                    <div class="screen-header">
+                        <h3>Messages</h3>
+                        <p>Your conversations</p>
+                    </div>
+                    <div class="screen-content">
+                        <div class="form-group">
+                            <input type="text" placeholder="🔍 Search messages...">
+                        </div>
+
+                        <div class="settings-item">
+                            <div style="display: flex; gap: 12px; align-items: center;">
+                                <div class="profile-avatar"
+                                    style="width: 50px; height: 50px; font-size: 24px; margin: 0;">👩</div>
+                                <div style="flex: 1;">
+                                    <p style="color: #2d3748; font-weight: 600; margin-bottom: 4px;">Priya Sharma</p>
+                                    <p style="color: #718096; font-size: 0.85em;">Thank you for connecting! Looking
+                                        forward...</p>
+                                </div>
+                                <div style="text-align: right;">
+                                    <p style="color: #a0aec0; font-size: 0.75em; margin-bottom: 4px;">2:30 PM</p>
+                                    <div
+                                        style="background: #667eea; color: white; border-radius: 50%; width: 20px; height: 20px; display: flex; align-items: center; justify-content: center; font-size: 0.7em; margin-left: auto;">
+                                        3</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="settings-item">
+                            <div style="display: flex; gap: 12px; align-items: center;">
+                                <div class="profile-avatar"
+                                    style="width: 50px; height: 50px; font-size: 24px; margin: 0;">👨</div>
+                                <div style="flex: 1;">
+                                    <p style="color: #2d3748; font-weight: 600; margin-bottom: 4px;">Amit Patel</p>
+                                    <p style="color: #718096; font-size: 0.85em;">Great! Let's schedule a meeting next
+                                        week</p>
+                                </div>
+                                <div style="text-align: right;">
+                                    <p style="color: #a0aec0; font-size: 0.75em;">Yesterday</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="settings-item">
+                            <div style="display: flex; gap: 12px; align-items: center;">
+                                <div class="profile-avatar"
+                                    style="width: 50px; height: 50px; font-size: 24px; margin: 0;">👩</div>
+                                <div style="flex: 1;">
+                                    <p style="color: #2d3748; font-weight: 600; margin-bottom: 4px;">Neha Desai</p>
+                                    <p style="color: #718096; font-size: 0.85em;">I can help with your financial
+                                        planning</p>
+                                </div>
+                                <div style="text-align: right;">
+                                    <p style="color: #a0aec0; font-size: 0.75em;">Monday</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="settings-item">
+                            <div style="display: flex; gap: 12px; align-items: center;">
+                                <div class="profile-avatar"
+                                    style="width: 50px; height: 50px; font-size: 24px; margin: 0;">🏛️</div>
+                                <div style="flex: 1;">
+                                    <p style="color: #2d3748; font-weight: 600; margin-bottom: 4px;">Community Support
+                                    </p>
+                                    <p style="color: #718096; font-size: 0.85em;">Your complaint has been forwarded
+                                        to...</p>
+                                </div>
+                                <div style="text-align: right;">
+                                    <p style="color: #a0aec0; font-size: 0.75em;">Jan 20</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="settings-item">
+                            <div style="display: flex; gap: 12px; align-items: center;">
+                                <div class="profile-avatar"
+                                    style="width: 50px; height: 50px; font-size: 24px; margin: 0;">👨</div>
+                                <div style="flex: 1;">
+                                    <p style="color: #2d3748; font-weight: 600; margin-bottom: 4px;">Vikram Singh</p>
+                                    <p style="color: #718096; font-size: 0.85em;">Would love to collaborate on the event
+                                    </p>
+                                </div>
+                                <div style="text-align: right;">
+                                    <p style="color: #a0aec0; font-size: 0.75em;">Jan 18</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom-nav">
+                        <div class="nav-item">
+                            <div class="nav-icon">🏠</div>
+                            <div>Home</div>
+                        </div>
+                        <div class="nav-item active">
+                            <div class="nav-icon">💬</div>
+                            <div>Messages</div>
+                        </div>
+                        <div class="nav-item">
+                            <div class="nav-icon">🔔</div>
+                            <div>Alerts</div>
+                        </div>
+                        <div class="nav-item">
+                            <div class="nav-icon">👤</div>
+                            <div>Profile</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Profile Screen -->
+            <div class="phone-mockup">
+                <div class="phone-notch"></div>
+                <div class="screen">
+                    <div class="screen-header">
+                        <h3>My Profile</h3>
+                        <p>Manage your account settings</p>
+                    </div>
+                    <div class="screen-content">
+                        <div class="profile-card">
+                            <div class="profile-avatar">👤</div>
+                            <h3 style="margin-bottom: 6px;">Rajesh Kumar</h3>
+                            <p style="opacity: 0.9; margin-bottom: 4px;">rajesh.kumar@email.com</p>
+                            <p style="opacity: 0.85; font-size: 0.85em;">+91 98765 43210</p>
+                            <button class="btn btn-secondary" style="margin-top: 15px; max-width: 200px;">Edit
+                                Profile</button>
+                        </div>
+
+                        <div style="margin-bottom: 15px;">
+                            <h4 style="color: #2d3748; margin-bottom: 12px;">Account Settings</h4>
+
+                            <div class="settings-item">
+                                <div style="display: flex; justify-content: space-between; align-items: center;">
+                                    <div>
+                                        <p style="color: #2d3748; font-weight: 600; font-size: 0.95em;">🔔 Notifications
+                                        </p>
+                                    </div>
+                                    <div style="color: #a0aec0; font-size: 1.2em;">›</div>
+                                </div>
+                            </div>
+
+                            <div class="settings-item">
+                                <div style="display: flex; justify-content: space-between; align-items: center;">
+                                    <div>
+                                        <p style="color: #2d3748; font-weight: 600; font-size: 0.95em;">🔒 Privacy &
+                                            Security</p>
+                                    </div>
+                                    <div style="color: #a0aec0; font-size: 1.2em;">›</div>
+                                </div>
+                            </div>
+
+                            <div class="settings-item">
+                                <div style="display: flex; justify-content: space-between; align-items: center;">
+                                    <div>
+                                        <p style="color: #2d3748; font-weight: 600; font-size: 0.95em;">💬 Help &
+                                            Support</p>
+                                    </div>
+                                    <div style="color: #a0aec0; font-size: 1.2em;">›</div>
+                                </div>
+                            </div>
+
+                            <div class="settings-item">
+                                <div style="display: flex; justify-content: space-between; align-items: center;">
+                                    <div>
+                                        <p style="color: #2d3748; font-weight: 600; font-size: 0.95em;">ℹ️ About
+                                            CommunityHub</p>
+                                    </div>
+                                    <div style="color: #a0aec0; font-size: 1.2em;">›</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="btn" style="background: #f56565; padding: 12px;">Sign Out</button>
+                    </div>
+                    <div class="bottom-nav">
+                        <div class="nav-item">
+                            <div class="nav-icon">🏠</div>
+                            <div>Home</div>
+                        </div>
+                        <div class="nav-item">
+                            <div class="nav-icon">💬</div>
+                            <div>Messages</div>
+                        </div>
+                        <div class="nav-item">
+                            <div class="nav-icon">🔔</div>
+                            <div>Alerts</div>
+                        </div>
+                        <div class="nav-item active">
+                            <div class="nav-icon">👤</div>
+                            <div>Profile</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="recommendations">
+            <h2>🚀 Future Enhancement Recommendations</h2>
+
+            <div class="rec-section">
+                <h3>Phase 2: Enhanced Communication</h3>
+                <ul>
+                    <li><strong>In-App Messaging:</strong> Real-time chat between users with text, voice notes, and
+                        image sharing</li>
+                    <li><strong>Video Calls:</strong> Integrated video conferencing for matrimony introductions and
+                        business meetings</li>
+                    <li><strong>Group Chats:</strong> Community discussion forums and interest-based groups</li>
+                    <li><strong>Push Notifications:</strong> Real-time alerts for messages, complaint status updates,
+                        and connection requests</li>
+                </ul>
+            </div>
+
+            <div class="rec-section">
+                <h3>Phase 3: Advanced Features</h3>
+                <ul>
+                    <li><strong>Payment Gateway Integration:</strong> Secure in-app payments for financial assistance,
+                        matrimony subscriptions, and event fees</li>
+                    <li><strong>Document Upload:</strong> Secure storage for identity verification, financial documents,
+                        and business certifications</li>
+                    <li><strong>AI Matching Algorithm:</strong> Smart recommendations for matrimony partners and
+                        business connections based on preferences and compatibility</li>
+                    <li><strong>Verification System:</strong> Blue checkmark badges for verified profiles (ID, business
+                        registration, background checks)</li>
+                    <li><strong>Analytics Dashboard:</strong> Track complaint resolution rates, assistance distribution,
+                        and networking effectiveness</li>
+                </ul>
+            </div>
+
+            <div class="rec-section">
+                <h3>Phase 4: Community Engagement</h3>
+                <ul>
+                    <li><strong>Events Calendar:</strong> Community events, festivals, meetups, and business networking
+                        sessions</li>
+                    <li><strong>News Feed:</strong> Community announcements, success stories, and member achievements
+                    </li>
+                    <li><strong>Rating & Reviews:</strong> Feedback system for business services and user interactions
+                    </li>
+                    <li><strong>Skill Directory:</strong> Searchable database of member skills, services, and expertise
+                    </li>
+                    <li><strong>Mentorship Program:</strong> Connect experienced professionals with aspiring
+                        entrepreneurs</li>
+                </ul>
+            </div>
+
+            <div class="rec-section">
+                <h3>Technical Enhancements</h3>
+                <ul>
+                    <li><strong>Multilingual Support:</strong> Interface in Hindi, English, and regional languages</li>
+                    <li><strong>Offline Mode:</strong> Access basic features and cached data without internet</li>
+                    <li><strong>Dark Mode:</strong> Eye-friendly theme for night-time usage</li>
+                    <li><strong>Biometric Login:</strong> Fingerprint/Face ID authentication for security</li>
+                    <li><strong>Data Privacy Controls:</strong> Granular privacy settings for profile visibility and
+                        data sharing</li>
+                    <li><strong>Accessibility Features:</strong> Screen reader support, text size adjustment, and high
+                        contrast mode</li>
+                </ul>
+            </div>
+
+            <div class="rec-section">
+                <h3>Security & Trust</h3>
+                <ul>
+                    <li><strong>Two-Factor Authentication:</strong> SMS/Email OTP for secure login</li>
+                    <li><strong>Report & Block System:</strong> Safety mechanisms to report suspicious activity</li>
+                    <li><strong>Privacy Badges:</strong> Indicators showing what data is visible to different user
+                        groups</li>
+                    <li><strong>Secure File Encryption:</strong> End-to-end encryption for sensitive documents</li>
+                    <li><strong>Activity Logs:</strong> Users can view login history and account access records</li>
+                </ul>
+            </div>
+
+            <div
+                style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 25px; border-radius: 12px; color: white; margin-top: 20px; text-align: center;">
+                <h3 style="margin-bottom: 12px; font-size: 1.4em;">💡 Key MVP Success Factors</h3>
+                <p style="opacity: 0.95; line-height: 1.7; font-size: 0.95em;">
+                    <strong>Start Simple:</strong> Focus on core functionality first. Perfect the basic user flows
+                    before adding advanced features.
+                    <strong>User Feedback:</strong> Launch with a small community group, gather feedback, and iterate
+                    quickly.
+                    <strong>Trust Building:</strong> Emphasize security, verification, and privacy from day one to build
+                    user confidence.
+                    <strong>Mobile-First:</strong> Optimize for smartphone usage as most community members will access
+                    via mobile devices.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+</div>
+</div>
+<div class="nav-item">
+    <div class="nav-icon">👤</div>
+    <div>Profile</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Matrimony Screen -->
+<div class="phone-mockup">
+    <div class="phone-notch"></div>
+    <div class="screen">
+        <div class="screen-header">
+            <h3>Matrimony</h3>
+            <p>Find your perfect match</p>
+        </div>
+        <div class="screen-content">
+            <div class="profile-card">
+                <div class="profile-avatar">👩</div>
+                <h3 style="margin-bottom: 6px;">Priya Sharma</h3>
+                <p style="opacity: 0.9; margin-bottom: 4px;">28 years • Software Engineer</p>
+                <p style="opacity: 0.85; font-size: 0.85em;">Mumbai, Maharashtra</p>
+            </div>
+
+            <div class="info-box">
+                <p style="color: #4a5568; font-size: 0.9em; line-height: 1.6;">Looking for a well-educated partner who
+                    values family traditions and modern thinking. Interested in arts, travel, and community service.</p>
+            </div>
+
+            <div style="display: flex; gap: 12px;">
+                <button class="btn btn-secondary" style="flex: 1;">⏭️ Skip</button>
+                <button class="btn" style="flex: 1;">💚 Connect</button>
+            </div>
+        </div>
+        <div class="bottom-nav">
+            <div class="nav-item">
+                <div class="nav-icon">🏠</div>
+                <div>Home</div>
+            </div>
+            <div class="nav-item">
+                <div class="nav-icon">💬</div>
+                <div>Messages</div>
+            </div>
+            <div class="nav-item">
+                <div class="nav-icon">🔔</div>
+                <div>Alerts</div>
+            </div>
+            <div class="nav-item">
+                <div class="nav-icon">👤</div>
+                <div>Profile</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Grievance Screen -->
+<div class="phone-mockup">
+    <div class="phone-notch"></div>
+    <div class="screen">
+        <div class="screen-header">
+            <h3>File a Complaint</h3>
+            <p>We're here to help resolve issues</p>
+        </div>
+        <div class="screen-content">
+            <form>
+                <div class="form-group">
+                    <label>Category</label>
+                    <select>
+                        <option>Select complaint type</option>
+                        <option>Infrastructure</option>
+                        <option>Public Services</option>
+                        <option>Safety & Security</option>
+                        <option>Community Events</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Subject</label>
+                    <input type="text" placeholder="Brief description of issue">
+                </div>
+
+                <div class="form-group">
+                    <label>Details</label>
+                    <textarea rows="4" placeholder="Provide complete information about the complaint..."></textarea>
+                </div>
+
+                <button type="button" class="btn">Submit Complaint</button>
+            </form>
+
+            <div style="margin-top: 25px;">
+                <h4 style="color: #2d3748; margin-bottom: 12px;">Recent Complaints</h4>
+                <div class="settings-item">
+                    <div style="display: flex; justify-content: space-between; align-items: start;">
+                        <div>
+                            <p style="color: #2d3748; font-weight: 600; margin-bottom: 4px;">Street Light Issue</p>
+                            <p style="color: #718096; font-size: 0.85em;">Submitted 2 days ago</p>
+                        </div>
+                        <span class="status-badge status-pending">Pending</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-nav">
+            <div class="nav-item">
+                <div class="nav-icon">🏠</div>
+                <div>Home</div>
+            </div>
+            <div class="nav-item">
+                <div class="nav-icon">💬</div>
+                <div>Messages</div>
+            </div>
+            <div class="nav-item">
+                <div class="nav-icon">🔔</div>
+                <div>Alerts</div>
+            </div>
+            <div class="nav-item">
+                <div class="nav-icon">👤</div>
+                <div>Profile</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Financial Assistance Screen -->
+<div class="phone-mockup">
+    <div class="phone-notch"></div>
+    <div class="screen">
+        <div class="screen-header">
+            <h3>Financial Assistance</h3>
+            <p>Support when you need it most</p>
+        </div>
+        <div class="screen-content">
+            <div
+                style="background: #d1fae5; padding: 15px; border-radius: 12px; margin-bottom: 20px; border-left: 4px solid #48bb78;">
+                <p style="color: #065f46; font-size: 0.9em; font-weight: 600;">✓ You have 1 active assistance request
+                </p>
+            </div>
+
+            <h4 style="color: #2d3748; margin-bottom: 12px;">Available Programs</h4>
+
+            <div class="module-card" style="margin-bottom: 12px;">
+                <h4 style="font-size: 1em;">Emergency Medical Aid</h4>
+                <p style="margin-bottom: 8px;">Up to ₹50,000 for medical emergencies</p>
+                <button class="btn" style="padding: 10px 20px; font-size: 0.85em;">Apply Now</button>
+            </div>
+
+            <div class="module-card" style="margin-bottom: 12px;">
+                <h4 style="font-size: 1em;">Education Support</h4>
+                <p style="margin-bottom: 8px;">Scholarships for students in need</p>
+                <button class="btn" style="padding: 10px 20px; font-size: 0.85em;">Apply Now</button>
+            </div>
+
+            <div class="module-card">
+                <h4 style="font-size: 1em;">Business Startup Loan</h4>
+                <p style="margin-bottom: 8px;">Low-interest loans for entrepreneurs</p>
+                <button class="btn" style="padding: 10px 20px; font-size: 0.85em;">Apply Now</button>
+            </div>
+
+            <div style="margin-top: 20px;">
+                <h4 style="color: #2d3748; margin-bottom: 12px;">My Requests</h4>
+                <div class="settings-item">
+                    <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 8px;">
+                        <div>
+                            <p style="color: #2d3748; font-weight: 600;">Medical Aid Request</p>
+                            <p style="color: #718096; font-size: 0.85em;">Amount: ₹25,000</p>
+                        </div>
+                        <span class="status-badge status-approved">Approved</span>
+                    </div>
+                    <p style="color: #718096; font-size: 0.8em;">Submitted on Jan 15, 2025</p>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-nav">
+            <div class="nav-item">
+                <div class="nav-icon">🏠</div>
+                <div>Home</div>
+            </div>
+            <div class="nav-item">
+                <div class="nav-icon">💬</div>
+                <div>Messages</div>
+            </div>
+            <div class="nav-item">
+                <div class="nav-icon">🔔</div>
+                <div>Alerts</div>
+            </div>
+            <div class="nav-item">
+                <div class="nav-icon">👤</div>
+                <div>Profile</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Business Networking Screen -->
+<div class="phone-mockup">
+    <div class="phone-notch"></div>
+    <div class="screen">
+        <div class="screen-header">
+            <h3>Business Network</h3>
+            <p>Connect with community entrepreneurs</p>
+        </div>
+        <div class="screen-content">
+            <div class="form-group">
+                <input type="text" placeholder="🔍 Search by name, business, or skill...">
+            </div>
+
+            <div class="module-card">
+                <div style="display: flex; gap: 15px; align-items: center;">
+                    <div class="profile-avatar" style="width: 60px; height: 60px; font-size: 28px; margin: 0;">👨</div>
+                    <div style="flex: 1;">
+                        <h4 style="margin-bottom: 4px;">Amit Patel</h4>
+                        <p style="font-size: 0.85em; margin-bottom: 6px;">Digital Marketing Expert</p>
+                        <p style="font-size: 0.8em; color: #4299e1;">📍 Mumbai • 🏢 ApexMedia Solutions</p>
+                    </div>
+                </div>
+                <button class="btn" style="padding: 10px 20px; font-size: 0.85em; margin-top: 12px;">Request
+                    Connection</button>
+            </div>
+
+            <div class="module-card">
+                <div style="display: flex; gap: 15px; align-items: center;">
+                    <div class="profile-avatar" style="width: 60px; height: 60px; font-size: 28px; margin: 0;">👩</div>
+                    <div style="flex: 1;">
+                        <h4 style="margin-bottom: 4px;">Neha Desai</h4>
+                        <p style="font-size: 0.85em; margin-bottom: 6px;">Financial Consultant</p>
+                        <p style="font-size: 0.8em; color: #4299e1;">📍 Pune • 🏢 WealthWise Advisors</p>
+                    </div>
+                </div>
+                <button class="btn" style="padding: 10px 20px; font-size: 0.85em; margin-top: 12px;">Request
+                    Connection</button>
+            </div>
+
+            <div class="module-card">
+                <div style="display: flex; gap: 15px; align-items: center;">
+                    <div class="profile-avatar" style="width: 60px; height: 60px; font-size: 28px; margin: 0;">👨</div>
+                    <div style="flex: 1;">
+                        <h4 style="margin-bottom: 4px;">Vikram Singh</h4>
+                        <p style="font-size: 0.85em; margin-bottom: 6px;">Restaurant Owner</p>
+                        <p style="font-size: 0.8em; color: #4299e1;">📍 Delhi • 🏢 Spice Garden Restaurant</p>
+                    </div>
+                </div>
+                <button class="btn" style="padding: 10px 20px; font-size: 0.85em; margin-top: 12px;">Request
+                    Connection</button>
+            </div>
+        </div>
+        <div class="bottom-nav">
+            <div class="nav-item">
+                <div class="nav-icon">🏠</div>
+                <div>Home</div>
+            </div>
+            <div class="nav-item">
+                <div class="nav-icon">💬</div>
+                <div>Messages</div>
+            </div>
+            <div class="nav-item">
+                <div class="nav-icon">🔔</div>
+                <div>Alerts
